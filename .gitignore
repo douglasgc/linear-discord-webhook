@@ -5,3 +5,8 @@ node_modules
 
 .pnpm-debug.log*
 *.tsbuildinfo
+.env*
+
+# Linear backups (contain private issue data)
+backups/
+!.env.backup.example

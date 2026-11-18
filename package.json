@@ -7,7 +7,8 @@
 	"private": true,
 	"scripts": {
 		"format": "prettier --write .",
-		"typecheck": "tsc"
+		"typecheck": "tsc",
+		"backup:linear": "node scripts/linear-backup.mjs"
 	},
 	"devDependencies": {
 		"@types/node": "^18.11.9",
